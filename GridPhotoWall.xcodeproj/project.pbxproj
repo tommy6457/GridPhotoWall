@@ -48,7 +48,6 @@
 		653FC05C27747EAB008CAEE1 = {
 			isa = PBXGroup;
 			children = (
-				653FC0892775B5DA008CAEE1 /* BigPhotoViewController.swift */,
 				653FC06727747EAB008CAEE1 /* GridPhotoWall */,
 				653FC06627747EAB008CAEE1 /* Products */,
 			);
@@ -65,6 +64,7 @@
 		653FC06727747EAB008CAEE1 /* GridPhotoWall */ = {
 			isa = PBXGroup;
 			children = (
+				653FC0892775B5DA008CAEE1 /* BigPhotoViewController.swift */,
 				653FC06827747EAB008CAEE1 /* AppDelegate.swift */,
 				653FC06A27747EAB008CAEE1 /* SceneDelegate.swift */,
 				653FC06E27747EAB008CAEE1 /* Main.storyboard */,
