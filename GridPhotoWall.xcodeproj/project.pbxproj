@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		653FC06927747EAB008CAEE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653FC06827747EAB008CAEE1 /* AppDelegate.swift */; };
 		653FC06B27747EAB008CAEE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653FC06A27747EAB008CAEE1 /* SceneDelegate.swift */; };
-		653FC06D27747EAB008CAEE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653FC06C27747EAB008CAEE1 /* ViewController.swift */; };
 		653FC07027747EAB008CAEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653FC06E27747EAB008CAEE1 /* Main.storyboard */; };
 		653FC07227747EB2008CAEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653FC07127747EB2008CAEE1 /* Assets.xcassets */; };
 		653FC07527747EB2008CAEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653FC07327747EB2008CAEE1 /* LaunchScreen.storyboard */; };
+		653FC07D2774DD9A008CAEE1 /* PhotoWallCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653FC07C2774DD9A008CAEE1 /* PhotoWallCollectionViewController.swift */; };
+		653FC07F2774DE13008CAEE1 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653FC07E2774DE13008CAEE1 /* PhotoCollectionViewCell.swift */; };
+		653FC0812774DF4F008CAEE1 /* PhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653FC0802774DF4F008CAEE1 /* PhotoResponse.swift */; };
+		653FC0842774E570008CAEE1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 653FC0832774E570008CAEE1 /* Kingfisher */; };
+		653FC08A2775B5DA008CAEE1 /* BigPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653FC0892775B5DA008CAEE1 /* BigPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		653FC06527747EAB008CAEE1 /* GridPhotoWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridPhotoWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		653FC06827747EAB008CAEE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		653FC06A27747EAB008CAEE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		653FC06C27747EAB008CAEE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		653FC06F27747EAB008CAEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		653FC07127747EB2008CAEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		653FC07427747EB2008CAEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		653FC07627747EB2008CAEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653FC07C2774DD9A008CAEE1 /* PhotoWallCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWallCollectionViewController.swift; sourceTree = "<group>"; };
+		653FC07E2774DE13008CAEE1 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		653FC0802774DF4F008CAEE1 /* PhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoResponse.swift; sourceTree = "<group>"; };
+		653FC0892775B5DA008CAEE1 /* BigPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653FC0842774E570008CAEE1 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,7 @@
 		653FC05C27747EAB008CAEE1 = {
 			isa = PBXGroup;
 			children = (
+				653FC0892775B5DA008CAEE1 /* BigPhotoViewController.swift */,
 				653FC06727747EAB008CAEE1 /* GridPhotoWall */,
 				653FC06627747EAB008CAEE1 /* Products */,
 			);
@@ -58,8 +67,10 @@
 			children = (
 				653FC06827747EAB008CAEE1 /* AppDelegate.swift */,
 				653FC06A27747EAB008CAEE1 /* SceneDelegate.swift */,
-				653FC06C27747EAB008CAEE1 /* ViewController.swift */,
 				653FC06E27747EAB008CAEE1 /* Main.storyboard */,
+				653FC07E2774DE13008CAEE1 /* PhotoCollectionViewCell.swift */,
+				653FC07C2774DD9A008CAEE1 /* PhotoWallCollectionViewController.swift */,
+				653FC0802774DF4F008CAEE1 /* PhotoResponse.swift */,
 				653FC07127747EB2008CAEE1 /* Assets.xcassets */,
 				653FC07327747EB2008CAEE1 /* LaunchScreen.storyboard */,
 				653FC07627747EB2008CAEE1 /* Info.plist */,
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = GridPhotoWall;
+			packageProductDependencies = (
+				653FC0832774E570008CAEE1 /* Kingfisher */,
+			);
 			productName = GridPhotoWall;
 			productReference = 653FC06527747EAB008CAEE1 /* GridPhotoWall.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 653FC05C27747EAB008CAEE1;
+			packageReferences = (
+				653FC0822774E570008CAEE1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 653FC06627747EAB008CAEE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				653FC06D27747EAB008CAEE1 /* ViewController.swift in Sources */,
+				653FC08A2775B5DA008CAEE1 /* BigPhotoViewController.swift in Sources */,
+				653FC07D2774DD9A008CAEE1 /* PhotoWallCollectionViewController.swift in Sources */,
+				653FC07F2774DE13008CAEE1 /* PhotoCollectionViewCell.swift in Sources */,
+				653FC0812774DF4F008CAEE1 /* PhotoResponse.swift in Sources */,
 				653FC06927747EAB008CAEE1 /* AppDelegate.swift in Sources */,
 				653FC06B27747EAB008CAEE1 /* SceneDelegate.swift in Sources */,
 			);
@@ -360,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		653FC0822774E570008CAEE1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		653FC0832774E570008CAEE1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 653FC0822774E570008CAEE1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 653FC05D27747EAB008CAEE1 /* Project object */;
 }
